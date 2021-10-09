@@ -7,7 +7,7 @@
 	"workspaceFolder": "/workspace",
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": { 
+	"settings": {
 		"sqltools.connections": [
 			{
 				"name": "Rails Development Database",
@@ -42,7 +42,7 @@
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [3000, 5432],
+	"forwardPorts": [3000, 5432],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "bundle install && rake db:setup",
