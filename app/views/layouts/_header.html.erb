@@ -1,0 +1,11 @@
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+    <span class="fs-4">Simple header</span>
+  </a>
+
+  <ul class="nav nav-pills">
+    <li class="nav-item"><a href="/" class="nav-link <%= is_active?(root_path) %>" aria-current="page">Home</a></li>
+    <li class="nav-item"><a href="/posts" class="nav-link  <%= is_active?(posts_path) %>">Posts</a></li>
+    <li class="nav-item"><a href="/about-us" class="nav-link  <%= is_active?(about_us_path) %>">About</a></li>
+  </ul>
+</header>
